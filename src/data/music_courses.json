@@ -1,0 +1,68 @@
+{
+    "courses":[
+        {
+            "id":1,
+            "title":"Guitar Fundamentals",
+            "slug":"guitar-fundamentals",
+            "description":"Learn the basics of playing guitar with our comphrensive beginner's course",
+            "price":99.99,
+            "instructor":"Atif Aslam",
+            "isFeatured":true,
+            "image": "/images/guitar.jpg"
+
+            
+        },
+        {
+            "id": 2,
+            "title": "Advanced Guitar Techniques",
+            "slug": "advanced-guitar-techniques",
+            "description": "Master advanced guitar techniques with our in-depth course",
+            "price": 149.99,
+            "instructor": "John Mayer",
+            "isFeatured": true,
+            "image": "/images/guitar2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Electric Guitar Essentials",
+            "slug": "electric-guitar-essentials",
+            "description": "Explore the essentials of electric guitar playing from our experts worldwide",
+            "price": 119.99,
+            "instructor": "Jimi Hendrix",
+            "isFeatured": true,
+            "image": "/images/electric-guitar.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Acoustic Guitar Basics",
+            "slug": "acoustic-guitar-basics",
+            "description": "Learn the basics of acoustic guitar playing from scratch",
+            "price": 89.99,
+            "instructor": "Taylor Swift",
+            "isFeatured": true,
+            "image": "/images/acoustic-guitar.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Blues Guitar Mastery",
+            "slug": "blues-guitar-mastery",
+            "description": "Master the art of playing blues guitar with expert guidance",
+            "price": 129.99,
+            "instructor": "B.B. King",
+            "isFeatured": true,
+            "image": "/images/blues-guitar.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Fingerstyle Guitar Workshop",
+            "slug": "fingerstyle-guitar-workshop",
+            "description": "Join our workshop to develop fingerstyle guitar techniques",
+            "price": 109.99,
+            "instructor": "Tommy Emmanuel",
+            "isFeatured": true,
+            "image": "/images/freestyle.jpg"
+        }
+       
+    ]
+}
