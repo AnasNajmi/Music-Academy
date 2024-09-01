@@ -1,16 +1,15 @@
-'use client'
+'use client';
+
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
 import { Button } from "@/components/ui/moving-border";
 import Link from "next/link";
 import Head from "next/head"; 
 
-
-
-function page() {
+function Page() {
   return (
     <div className="w-screen h-screen bg-slate-800 pt-36">
-       <Head>
+      <Head>
         <title>Contact Us</title>
         {/* Any other metadata you need */}
       </Head>
@@ -20,7 +19,7 @@ function page() {
         </h1>
 
         <p className="text-white text-center mt-4">
-          Contact Us now and tune your life's sound on the right track
+          Contact Us now and tune your life&apos;s sound on the right track
         </p>
 
         <div className="flex justify-center mt-8">
@@ -40,7 +39,7 @@ function page() {
 
         {/* Submit Now Button Section */}
         <div className="flex justify-center mt-6">
-          <Link href={'/'}>
+          <Link href="/">
             <Button
               borderRadius="1rem"
               className="bg-white text-black dark:bg-slate-600 dark:text-white border-neutral-200 dark:border-slate-500 px-6 py-2"
@@ -51,11 +50,10 @@ function page() {
         </div>
       </div>
 
-      {/* Meaty part - Meteor effect */}
+      {/* Meteor effect */}
       <Meteors number={20} />
     </div>
   );
 }
 
-export default page 
-
+export default Page;
